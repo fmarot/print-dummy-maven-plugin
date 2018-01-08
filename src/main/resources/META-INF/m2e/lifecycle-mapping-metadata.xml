@@ -3,7 +3,7 @@
 		<pluginExecution>
 			<pluginExecutionFilter>
 				<goals>
-					<goal>validateI18N</goal>
+					<goal>print</goal>
 				</goals>
 			</pluginExecutionFilter>
 			<action>
