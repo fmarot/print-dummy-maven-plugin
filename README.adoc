@@ -14,19 +14,16 @@ On the command line run:
 	<plugin>
 		<groupId>com.teamtter.maven</groupId>
 		<artifactId>print-dummy-maven-plugin</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 		<executions>
 			<execution>
-				<id>validateI18N</id>
+				<id>print</id>
 				<goals>
 					<goal>print</goal>
 				</goals>
 			</execution>
 		</executions>
-		<configuration>
-		</configuration>
-		<inherited>false</inherited>
-	</plugin>
-	
+	</plugin>	
 	[...]
 </plugins>
 
